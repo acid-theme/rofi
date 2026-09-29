@@ -1,15 +1,16 @@
 # Acid for rofi
 
-Three flavours: **Acetic** (`#000000`), pure black with vibrant accents; **Citric** (`#1c1b19`), warm dark grey with muted accents; and **Lactic** (`#ffffff`), white with accents darkened to match.
+Generated from [acid-theme/acid](https://github.com/acid-theme/acid) — open issues
+and pull requests there.
 
-Part of [Acid](https://github.com/acid-theme/acid), a very dark colourscheme in two
-flavours. The main README lists the other ports.
+<details>
+<summary>Screenshots</summary>
 
-## Preview
+| Acetic | Citric | Lactic |
+| --- | --- | --- |
+| ![Acid Acetic](previews/acetic.png) | ![Acid Citric](previews/citric.png) | ![Acid Lactic](previews/lactic.png) |
 
-| Acetic | Citric |
-| --- | --- |
-| ![Acid Acetic](previews/acetic.png) | ![Acid Citric](previews/citric.png) |
+</details>
 
 ## Install
 
@@ -76,26 +77,6 @@ element selected.urgent  { background-color: @red; text-color: @base; }
 element-text { background-color: transparent; text-color: inherit; }
 ```
 
-All nine element states are worth setting: a row is `normal`, `alternate` or
-`selected` crossed with `normal`, `active` or `urgent`, and an unset combination
-falls back to rofi's own colours.
+## Credits
 
-rofi accepts a name it does not know without complaint, so a misspelled role
-leaves that widget on rofi's default rather than failing.
-
-## Files
-
-- `acid-acetic.rasi`
-- `acid-citric.rasi`
-- `acid-lactic.rasi`
-
-## Generated
-
-Acid 0.1.0, rendered by acidify from
-[`ports/rofi/acid.rasi.tera`](https://github.com/acid-theme/acid/blob/main/ports/rofi/acid.rasi.tera).
-Edits to these files are overwritten on the next release. Report issues on
-[acid-theme/acid](https://github.com/acid-theme/acid/issues).
-
-## Licence
-
-MIT.
+[@ssiyad](https://github.com/ssiyad)
