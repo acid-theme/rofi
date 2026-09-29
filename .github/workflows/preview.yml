@@ -8,6 +8,7 @@ on:
     paths:
       - "acid-acetic.rasi"
       - "acid-citric.rasi"
+      - "acid-lactic.rasi"
       - "preview/**"
   workflow_dispatch:
 
